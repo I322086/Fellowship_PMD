@@ -1,0 +1,29 @@
+<mvc:View controllerName="pmd1.controller.View1" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page showHeader="true" titleLevel="H2" title="Project Monitoring Dashboard" class="bgimage">
+				<content>
+					<l:Grid id="container" defaultSpan="L3 M4 S8" class="sapUiSmallMarginTop">
+						<l:content>
+							<!--<TileContainer id="container" tileDelete="handleTileDelete" tiles="{/tiledata}">-->
+							<StandardTile icon="sap-icon://visits" type="Create" number="25" numberUnit="Projects" title="AIS Customer Connect" info="15 PD's"
+								infoState="Success"/>
+							<StandardTile icon="sap-icon://begin" type="Create" number="25" numberUnit="Projects" title="AIS Customer Connect" info="15 PD's"
+								infoState="Success"/>
+							<StandardTile icon="sap-icon://citizen-connect" type="Create" number="25" numberUnit="Projects" title="AIS Customer Connect" info="15 PD's"
+								infoState="Success"/>
+							<StandardTile icon="sap-icon://crm-sales" type="Create" number="25" numberUnit="Projects" title="AIS Customer Connect" info="15 PD's"
+								infoState="Success"/>
+							<StandardTile icon="sap-icon://business-objects-experience" type="Create" number="25" numberUnit="Projects" title="AIS Customer Connect" info="15 PD's"
+								infoState="Success"/>
+							<StandardTile icon="sap-icon://activate" type="Create" number="25" numberUnit="Projects" title="AIS Customer Connect" info="15 PD's"
+								infoState="Success"/>
+							<!--</TileContainer>-->
+						</l:content>
+					</l:Grid>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
